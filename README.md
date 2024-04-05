@@ -1,4 +1,4 @@
-A simple wordle game that you can play in terminal.
+A simple Wordle game that you can play in the terminal.
 
 How to start:
 1. Clone the repository with ```git clone https://github.com/uygarpolat/ft_wordle.git ft_wordle```
