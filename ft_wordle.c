@@ -6,7 +6,7 @@
 /*   By: upolat <upolat@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/03 23:59:02 by upolat            #+#    #+#             */
-/*   Updated: 2024/04/05 15:15:35 by upolat           ###   ########.fr       */
+/*   Updated: 2024/04/06 00:25:16 by upolat           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,7 +96,7 @@ int	main(void)
 	{
 		while (1)
 		{
-			printf("Enter your guess #%d:\n", guess_counter);
+			printf("Enter your guess #%d: ", guess_counter);
 			scanf("%5s", guess);
 			while ((c = getchar()) != '\n' && c != EOF);
 			if (ft_strlen(guess) == 5)
