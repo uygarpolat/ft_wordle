@@ -6,7 +6,7 @@
 /*   By: upolat <upolat@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/03 23:59:02 by upolat            #+#    #+#             */
-/*   Updated: 2024/04/06 00:25:16 by upolat           ###   ########.fr       */
+/*   Updated: 2024/04/06 13:58:18 by upolat           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,10 +119,8 @@ int	main(void)
 				blocker[i] = 0;
 				alphabet[guess[i] - 'a'] = 3;
 			}
-			//printf("%d", blocker[i]);
 			i++;
 		}
-		//printf("\n");
 		i = 0;
 		while (guess[i] != '\0')
 		{
@@ -135,7 +133,6 @@ int	main(void)
 					blocker[j] = 0;
 					if (alphabet[guess[i] - 'a'] < 3)
 						alphabet[guess[i] - 'a'] = 2;
-					//printf("%d", blocker[j]);
 					break ;
 				}
 				else
@@ -143,10 +140,8 @@ int	main(void)
 					if (alphabet[guess[i] - 'a'] < 2)
 						alphabet[guess[i] - 'a'] = 1;
 				}
-				//printf("%d", blocker[j]);
 				j++;
 			}
-			//printf("\n");
 			i++;
 		}
 		i = 0;
